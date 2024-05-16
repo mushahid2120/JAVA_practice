@@ -31,7 +31,7 @@ public class InputTwo {
         N=x.nextInt();
         int count=0;
         while(N!=0) {
-           count++:
+           count++;
             N/=10;
         }
         System.out.println("Total Number of Digits "+count);
