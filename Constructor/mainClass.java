@@ -1,16 +1,17 @@
 package Constructor;
-import Constructor.Person;
+
 import Constructor.Employee;
+//import Inheritance.Person;
 public class mainClass {
     public static void main(String []args){
-        mainClass.customer();
+
     }
-    static void person(){
-        Person p=new Person();
-        Person p1=new Person("Mushahid");
-        Person p2=new Person(49);
-        Person p3=new Person("Mushahid",48);
-    }
+//    static void person(){
+//        Person p=new Person();
+//        Person p1=new Person("Mushahid");
+//        Person p2=new Person(49);
+//        Person p3=new Person("Mushahid",48);
+//    }
     static void employee(){
         Employee e =new Employee();
         Employee e1=new Employee("Mushahid",40000);
