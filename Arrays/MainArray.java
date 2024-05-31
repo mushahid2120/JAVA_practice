@@ -179,5 +179,7 @@ public class MainArray {
         for(int i=0;i<e.length;i++)
             System.out.println(e[i].getId()+" "+e[i].getName()+" "+e[i].getSalary());
     }
+
+    
 }
 
