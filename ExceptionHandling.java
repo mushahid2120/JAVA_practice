@@ -1,12 +1,15 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class ExceptionHandling {
-    public static void main(String[] args) throws SubtractionException,DivisionException {
+    public static void main(String[] args) {
         Calculation c=new Calculation();
         c.setOperand1(40);
         c.setOperand2(1);
-        System.out.println(c.divide());
-        System.out.println(c.subtract());
+        try {
+            System.out.println(c.divide());
+            System.out.println(c.subtract());
+        }catch (SubtractionException s){System.out.println(s.getMessage());}
+            catch(DivisionException d){System.out.println(d.getMessage());}
     }
     static void f1(){
         Scanner sc = new Scanner(System.in);
